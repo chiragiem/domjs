@@ -6,7 +6,7 @@ Create HTML script easily and faster with lesser code and complexity
 Creating fron-end app, with JS script rendering all your HTML could become complex and messier as your project grows. Embedding HTML script directly into JS script make it difficult to write and maintain code. Also Dom method requires lot of steps, to accompalish the same task. Hence this library aims to reduce pain of front-end developers.
 
 <h1>Set up</h1>
-Add this code inside <head> element to access the library.
+Add this code inside "head" element to access the library.
 <code><script src="js/Dom.js" type='text/javascript'></script></code>
 
 <h1>Syntax</h1>
@@ -34,6 +34,7 @@ var sty = {
   borderRadius:"3px"
  }
 </code>
+<br>
  
 <code> var elem = new domElement("h3",attr,sty,"Iron Man");</code>
 
