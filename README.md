@@ -3,7 +3,7 @@
 Create HTML script easily and faster with lesser code and complexity
 
 <h1>Introduction</h1>
-Creating fron-end app, with JS script rendering all your HTML could become complex and messier as your project grows. Embedding HTML script directly into JS script make it difficult to write and maintain code. Also Dom methods requires lot of steps, to accompalish the same task. Hence this library is created to reduce pain of front-end developers.
+Creating fron-end app, with JS script rendering all your HTML could become complex and messier as your project grows. Embedding HTML script directly into JS script make it difficult to write and maintain code. Also Dom method requires lot of steps, to accompalish the same task. Hence this library aims to reduce pain of front-end developers.
 
 <h1>Set up</h1>
 Add this code inside <head> element to access the library.
@@ -11,7 +11,7 @@ Add this code inside <head> element to access the library.
 
 <h1>Syntax</h1>
 <hr>
-<h3>newElement(tag,attributes,styles,param)</h3>
+<h3>domElement(tag,attributes,styles,param)</h3>
 This constructor should be passed 4 argumments
 <ul>
 <li>'tag'- string containing tag name of the element/node to create</li>
